@@ -39,5 +39,10 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Обработки</subsystems>
+  <subsystems>Subsystem.Справочники</subsystems>
   <commonModules>CommonModule.МодульВычисления</commonModules>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <dataProcessors>DataProcessor.ВыгрузкаВЭксель</dataProcessors>
 </mdclass:Configuration>
