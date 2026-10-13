@@ -29,10 +29,10 @@
       <objectType typeId="af7166a4-b944-47a8-8686-a20cd5ae6065" valueTypeId="f8c2d1d6-c70b-4872-b5cf-66cab5b9a418"/>
       <rowType typeId="d0616d44-e85d-4824-92a2-07589c55f733" valueTypeId="2a83059c-40b2-46fa-b55c-fe55a92a582f"/>
     </producedTypes>
-    <name>Товары</name>
+    <name>ТоварыВыгрузка</name>
     <synonym>
       <key>ru</key>
-      <value>Товары</value>
+      <value>Товары выгрузка</value>
     </synonym>
     <attributes uuid="d4f78d7d-6f5a-4a64-bcb7-57da19338028">
       <name>Номенклатура</name>
@@ -61,6 +61,50 @@
         <numberQualifiers>
           <precision>10</precision>
           <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="ee6e370f-8894-47f4-ae7c-293cb209f363">
+    <producedTypes>
+      <objectType typeId="73246fbc-2a3e-487d-9cfc-bf3b052c4557" valueTypeId="29ef5bac-d97f-4b3f-bbec-90170347e6e6"/>
+      <rowType typeId="c0d2aa28-c580-4a17-bc22-c7d57bbc4984" valueTypeId="6850ec1d-be06-476e-bde4-1b8c3b5e26f7"/>
+    </producedTypes>
+    <name>ТоварыЗагрузка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары загрузка</value>
+    </synonym>
+    <attributes uuid="cf3b4e0d-8062-4067-a6b1-093038e1e496">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="9666bca4-af78-4b2a-ba4d-e788a845a470">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>3</scale>
         </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
