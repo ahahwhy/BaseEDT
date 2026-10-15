@@ -8,4 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.Приход</content>
+  <content>Document.Расход</content>
 </mdclass:Subsystem>
