@@ -41,8 +41,12 @@
   </languages>
   <subsystems>Subsystem.Обработки</subsystems>
   <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.Документы</subsystems>
   <commonModules>CommonModule.МодульВычисления</commonModules>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.Склад</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
+  <documents>Document.Приход</documents>
   <dataProcessors>DataProcessor.ВыгрузкаВЭксель</dataProcessors>
 </mdclass:Configuration>

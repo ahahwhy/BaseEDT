@@ -9,4 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Номенклатура</content>
   <content>Catalog.ЕдиницыИзмерения</content>
+  <content>Catalog.Склад</content>
+  <content>Catalog.Поставщики</content>
 </mdclass:Subsystem>
