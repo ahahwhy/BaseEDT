@@ -51,5 +51,6 @@
   <documents>Document.Приход</documents>
   <documents>Document.Расход</documents>
   <dataProcessors>DataProcessor.ВыгрузкаВЭксель</dataProcessors>
+  <dataProcessors>DataProcessor.СозданиеДокументов</dataProcessors>
   <accumulationRegisters>AccumulationRegister.ДвиженияТоваров</accumulationRegisters>
 </mdclass:Configuration>

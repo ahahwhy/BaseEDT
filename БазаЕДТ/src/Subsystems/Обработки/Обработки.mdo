@@ -8,4 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.ВыгрузкаВЭксель</content>
+  <content>DataProcessor.СозданиеДокументов</content>
 </mdclass:Subsystem>

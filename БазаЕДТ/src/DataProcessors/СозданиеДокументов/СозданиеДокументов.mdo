@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2444ed3b-2c3d-4423-b6c9-f810fe78b4f4">
+  <producedTypes>
+    <objectType typeId="5a70fd65-ceb4-44e7-94db-e3431d180334" valueTypeId="15eddbb8-3921-4295-b26e-9e5fe0648334"/>
+    <managerType typeId="cbf05ee1-262d-466c-9c41-4016b63603cc" valueTypeId="f5ebe32d-4984-4965-b59c-c4b36d5d8640"/>
+  </producedTypes>
+  <name>СозданиеДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создание документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СозданиеДокументов.Form.Форма</defaultForm>
+  <attributes uuid="7ea387fe-f85d-4ef8-810a-2a6f3e65171f">
+    <name>КоличествоПриходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество приходов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ff0ea57a-4791-47ca-a26c-bf5b00b0c289">
+    <name>КоличествоРасходов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество расходов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="4555168b-b63e-4ad5-90a5-0ba4d3b51af6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
