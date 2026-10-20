@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.Приход</content>
   <content>Document.Расход</content>
+  <content>Document.УстановкаЦенНоменклатуры</content>
 </mdclass:Subsystem>
