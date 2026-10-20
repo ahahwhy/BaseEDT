@@ -38,26 +38,6 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="6635040a-b284-4a24-8492-492e830e9be2">
-    <name>Количество</name>
-    <synonym>
-      <key>ru</key>
-      <value>Количество</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <scale>2</scale>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="5781c32b-a6a7-4ecd-869b-9c4469febf9b">
     <name>ЕдиницаИзмерения</name>
     <synonym>

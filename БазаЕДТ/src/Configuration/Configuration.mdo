@@ -43,6 +43,7 @@
   <subsystems>Subsystem.Справочники</subsystems>
   <subsystems>Subsystem.Документы</subsystems>
   <subsystems>Subsystem.Регистры</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
   <commonModules>CommonModule.МодульВычисления</commonModules>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
@@ -50,7 +51,10 @@
   <catalogs>Catalog.Поставщики</catalogs>
   <documents>Document.Приход</documents>
   <documents>Document.Расход</documents>
+  <documents>Document.УстановкаЦенНоменклатуры</documents>
+  <reports>Report.ОтчетОЦенахНоменклатуры</reports>
   <dataProcessors>DataProcessor.ВыгрузкаВЭксель</dataProcessors>
   <dataProcessors>DataProcessor.СозданиеДокументов</dataProcessors>
+  <informationRegisters>InformationRegister.ЦеныНоменклатуры</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ДвиженияТоваров</accumulationRegisters>
 </mdclass:Configuration>

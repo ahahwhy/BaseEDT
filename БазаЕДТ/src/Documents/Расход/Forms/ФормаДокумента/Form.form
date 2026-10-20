@@ -607,6 +607,12 @@
           <common>true</common>
         </userVisible>
       </cmiFragmentRecord>
+      <cmiFragmentRecord>
+        <command>InformationRegister.ЦеныНоменклатуры.StandardCommand.OpenByRecorder</command>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </cmiFragmentRecord>
     </navigationPanel>
     <commandBar/>
   </commandInterface>
