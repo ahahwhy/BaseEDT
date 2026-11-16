@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbe44c4a-e759-4d1e-96b0-acb83e1121c0">
+  <name>ПолучениеОтветаОтПостман</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение ответа от постман</value>
+  </synonym>
+  <rootURL>testGet</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="4eec8d91-520f-42f8-99f9-9f20ae3ac907">
+    <name>НомерДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер документа</value>
+    </synonym>
+    <template>/NumberDocument</template>
+    <methods uuid="0c35b8ac-e3dd-4618-bdfd-eb36ee6a6ee9">
+      <name>Метод</name>
+      <synonym>
+        <key>ru</key>
+        <value>Метод</value>
+      </synonym>
+      <handler>НомерДокументаМетод</handler>
+    </methods>
+    <methods uuid="23b4b62f-160e-48e3-802d-4f1875ef8e88">
+      <name>ИзменениеДокумента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Изменение документа</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>НомерДокументаИзменениеДокумента</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

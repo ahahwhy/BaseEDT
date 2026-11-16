@@ -9,4 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.ВыгрузкаВЭксель</content>
   <content>DataProcessor.СозданиеДокументов</content>
+  <content>DataProcessor.ПолучениеПогоды</content>
 </mdclass:Subsystem>
