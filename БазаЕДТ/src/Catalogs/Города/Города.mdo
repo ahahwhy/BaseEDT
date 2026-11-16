@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b80b28d-56a2-476e-aefa-bf6961906aab">
+  <producedTypes>
+    <objectType typeId="b7888369-f333-4069-a0a8-22e920577340" valueTypeId="7ffedba7-451d-4f4f-8a45-a7b528e0d433"/>
+    <refType typeId="be78770d-86fd-4bbd-abf7-e4123a7411a8" valueTypeId="cb315d3a-2af6-423f-9db4-4c1ff8ce51b0"/>
+    <selectionType typeId="50e29b00-0364-47ad-b709-5056bfefcf45" valueTypeId="bf42bab3-1aa1-4b10-9058-85d6ae9381db"/>
+    <listType typeId="8db4e4b5-0b6d-4844-8d45-3ec244ca2e78" valueTypeId="a7ed74c9-cc4f-4f3f-b2dd-8b3da90c263b"/>
+    <managerType typeId="df4e5e2b-cd4a-4f55-b970-d4404ebb5380" valueTypeId="133b306f-84a7-45f8-938b-e5bae443becd"/>
+  </producedTypes>
+  <name>Города</name>
+  <synonym>
+    <key>ru</key>
+    <value>Города</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Города.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Города.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="3542e5b1-31b3-4a64-8e5e-6bc2977981b9">
+      <name>Тюмень</name>
+      <description>Тюмень</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
